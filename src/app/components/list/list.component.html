@@ -1,0 +1,10 @@
+    <div class="list">
+        <div class="list__item" *ngFor="let item of listFiltered">
+            <div class="list__container-image">
+                <img loading=lazy src={{item.photo}} (error)="errorHandler($event)" width="200" height="200">
+            </div>
+            <div class="list__container-text">
+                <span>{{item.text}}</span>
+            </div>
+        </div> 
+    </div>

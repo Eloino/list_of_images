@@ -1,0 +1,12 @@
+@import "./../../../variables.scss";
+
+.title {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    background-color: $primary-dark-color;
+    &__item {
+        padding: 20px;
+        font-size: 20px;
+    }
+}

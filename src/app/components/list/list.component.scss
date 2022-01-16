@@ -1,0 +1,17 @@
+@import "../../../variables.scss";
+
+
+.list {
+    padding-top: 20px;
+    &__item {
+        display: flex;
+        padding: 10px 0px;
+        margin: 5px 10px;
+        background-color: $primary-light-color;
+    }
+    &__container-text, &__container-image {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+    }
+}

@@ -1,0 +1,24 @@
+<div class="filter">
+    <form [formGroup]="formFilter">
+        <div class="filter__row">
+            <div>
+                <h4>Filtrar por:</h4>
+            </div>
+        </div>
+        <div class="filter__row">
+            <div class="filter__col">
+                <div>
+                    <span>Id:</span>
+                </div>
+                <input type="number" formControlName="id">
+            </div>
+            <div class="filter__col">
+                <div>
+                    <span>Texto:</span>
+                </div>
+                <input type="text" formControlName="text">
+            </div>
+        </div>        
+    </form>
+</div>
+
